@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+.maincontainer{
+   background-color:#3D087B;
+}
+.innercontainer1{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.innercontainer2{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    height:300px;
+    width:400px;
+    background-color: white;
+    position:relative;
+    margin-left: 150px;
+    border-radius: 10px
+}
+.box{
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+}
+/* .card1{
+    z-index:3;
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+    border:5px solid white;
+    background-color: white;
+   
+    margin-left: 600px;
+   margin-top:10px;
+}
+.cards2{
+    z-index: 2;
+    height:50px;
+    width:60px;
+    border:5px solid white;
+    background-color:white;
+    border-radius: 10px;
+
+    margin-left: 600px;
+   margin-top:10px;
+}
+.cards3{
+    z-index: 1;
+    height:50px;
+    width:70px;
+    margin-top:100px;
+    border:5px solid white;
+    background-color: white;
+    border-radius: 10px;
+} */
+.break2{
+    height:50px;
+    width:500px;
+    background-color: white;
+margin-top:-800px;
+   position:relative;
+    color:#3D087B;
+    margin-left: 600px;
+    border: 2px solid #EDEDED;
+    font-style: italic;
+   
+}
+.gm{
+    color:white;
+    border-radius: 10px;
+    height:80px;
+    width:400px;
+    border:5px solid #7122cc;
+    background-color: #3D087B;
+    margin-left: 150px;
+    font-style: italic;
+}
+.schedule{
+     color:white;
+        border-radius: 10px;
+        height:100px;
+        width:200px;
+        border:5px solid #6d14d3;
+        background-color: #6818c4;
+        margin-left: 370px;
+        margin-bottom: 16px;
+}
+
+.card3{
+    height:100px;
+    width:100px;
+    position: relative;
+    margin-left: 600px;
+   margin-top:20px;
+}
+.card4{
+    height:20px;
+    width:20px;
+    margin-left: 600px;
+    margin-top: 140px;
+    position: relative;
+}
+.card5{
+    height:20px;
+    width:20px;
+    margin-top: 350px;
+    margin-left: 600px;
+    position: relative;
+}
+.card6{
+
+    height:20px;
+    width:20px;
+    margin-top: 350px;
+   margin-left: 600px;
+    position: relative;
+}
+.box{
+    background-color:white;
+    border:1px solid;
+    height:90px;
+    width:200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.box2{
+    background-color:white;
+    border:1px solid;
+    height:90px;
+    width:200px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.gn{
+    
+    color: white;
+    height:50px;
+    width: 400px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+.btn{
+    color: white;
+    background-image: linear-gradient(blue,pink);
+    height:50px;
+    width: 200px;
+    margin-left: 150px;
+}
+.btn:hover{
+    background-image: linear-gradient(pink,blue);
+   
+}
